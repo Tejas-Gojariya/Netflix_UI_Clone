@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Golos Text", sans-serif;
+}
+
+.cantainer {
+    width: 100h;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(2, 1, 11, 0.475)), url(images/netflixbg.jpg);
+    padding: 10px 8%;
+}
+
+.logo {
+    width: 180px;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: #e50914;
+    padding: 20px 50px 20px 50px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 17px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: auto;
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 60px;
+    display: flex;
+    margin-top: 2.5rem;
+}
+
+select {
+    margin-top: 1px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 6px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.login-btn {
+    background-color: #e50914;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    font-size: 0.9rem;
+}
+
+nav ul li button {
+    padding: 8px 20px;
+    margin: 0px 10px;
+}
+
+.content {
+    display: flex;
+    margin: 10%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.main-title {
+    font-size: 50px;
+    color: white;
+}
+
+.discription {
+    margin-top: 3%;
+    font-size: 20px;
+    margin-bottom: 7%;
+    color: white;
+}
+
+.form {
+    padding: 20px 50px 20px 50px;
+    border-radius: 10px;
+    margin-right: 8px;
+    border: 10xp solid rgb(255, 255, 255);
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    background-color: #0f0f0f82;
+}
+
+.mainbox1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 15%;
+}
+
+.box2 {
+    display: flex;
+    align-items: center;
+    padding: 10%;
+    flex-wrap: nowrap;
+    gap: 70px;
+    background-color: black;
+}
+
+.dis_box2 {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.phone {
+    width: 40%;
+    height: 50%;
+}
+
+.box2_title {
+    font-size: 55px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+.box2_discription {
+    font-size: 25px;
+    color: white;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 10%;
+    flex-wrap: nowrap;
+    gap: 70px;
+    background-color: black;
+}
+
+.dis_box1 {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.tv {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 40%;
+    height: 50%;
+}
+
+.box1_title {
+    font-size: 55px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+.box1_discription {
+    font-size: 25px;
+    color: white;
+}
+
+.box3 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 10%;
+    flex-wrap: nowrap;
+    gap: 70px;
+    background-color: black;
+}
+
+.dis_box3 {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.tv {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 40%;
+    height: 50%;
+}
+
+.box3_title {
+    font-size: 55px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+.box3_discription {
+    font-size: 25px;
+    color: white;
+}
+
+.box4 {
+    display: flex;
+    align-items: center;
+    padding: 10%;
+    flex-wrap: nowrap;
+    gap: 70px;
+    background-color: black;
+}
+
+.dis_box4 {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.children {
+    width: 40%;
+    height: 50%;
+}
+
+.box4_title {
+    font-size: 55px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+.box4_discription {
+    font-size: 25px;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    color: #a7a6a1;
+    padding-bottom: 50px;
+}
+
+.main-footer {
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    padding: 50px 0px;
+}
+
+.main-footer ul li {
+    list-style: none;
+    padding: 10px 0px;
+}
+
+.main-footer ul li a {
+    color: #9a989a;
+}
+
+.q-main {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Questions {
+    padding-bottom: 10%;
+}
+
+.q-main h3 {
+    margin: 50px 0px;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.faq {
+    background-color: #2d2d2d;
+    padding: 25px 30px;
+    font-weight: 500;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0px;
+    margin-bottom: 15px;
+}
+
+.que_dis {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.que_dis form {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.que_dis form div {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+}
+
+.que_dis p {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.footer p {
+    margin-top: 50px;
+    margin-left: 280px;
+    font-size: 1rem;
+}
+
+.footer select {
+    width: 10%;
+    margin-left: 280px;
+}
